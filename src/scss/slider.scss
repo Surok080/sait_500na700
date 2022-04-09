@@ -1,0 +1,37 @@
+.slick-prev {
+	left: 42%;
+	top: 100%;
+}
+
+.slick-next {
+	left: 58%;
+	top: 100%;
+}
+.slick-arrow {
+	width: 100px;
+}
+.slick-next:before {
+	content: "";
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 170px;
+	height: 20px;
+	background: url(img/arrow/Arrow2.svg) center no-repeat;
+}
+.slick-next:hover:before{
+	background: url(img/arrow/ArrowGreen1.svg) center no-repeat;
+}
+
+.slick-prev:before {
+	content: "";
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 170px;
+	height: 20px;
+	background: url(img/arrow/Arrow1.svg) center no-repeat;
+}
+.slick-prev:hover:before{
+	background: url(img/arrow/ArrowGreen2.svg) center no-repeat;
+}
